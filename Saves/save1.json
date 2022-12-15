@@ -1,0 +1,49 @@
+{
+    "players":
+    [
+        {
+            "name":"Vapor Knight",
+            "id":"vaporknight",
+            "type":"Player",
+            "description":"A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
+            "experience":0,
+            "level":1,
+            "health":10,
+            "maxHealth":10,
+            "stamina":5,
+            "maxStamina":5,
+            "swiftness":1,
+            "strength":2,
+            "toughness":2,
+            "will":1,
+            "fortune":2,
+            "head":"",
+            "torso":"",
+            "legs":"",
+            "hands":"",
+            "feet":"",
+            "items": 
+            [
+                {
+                    "name":"medicinalherb",
+                    "count":45
+                },
+                {
+                    "name":"vorpalsword",
+                    "count":1
+                }
+            ],
+            "equipments": 
+            [
+                {
+    
+                }
+            ],
+            "statusEffects":
+            [
+                ""
+            ],
+            "gridPosition":0
+        }
+    ]
+}
