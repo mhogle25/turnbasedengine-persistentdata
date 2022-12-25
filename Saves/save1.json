@@ -4,7 +4,6 @@
         {
             "name":"Vapor Knight",
             "id":"vaporknight",
-            "type":"Player",
             "description":"A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
             "experience":0,
             "level":1,
@@ -22,6 +21,7 @@
             "legs":"",
             "hands":"",
             "feet":"",
+            "gridPosition":0,
             "items": 
             [
                 {
@@ -42,8 +42,7 @@
             "statusEffects":
             [
                 ""
-            ],
-            "gridPosition":0
+            ]
         }
     ]
 }
