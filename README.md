@@ -1,2 +1,5 @@
 # TurnBasedEngine-PersistentData
 The dev's persistent data for TurnBasedEngine
+Setup:
+1. Clone into local persistent data path of TurnBasedEngine ([https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html))
+2. Change the name of the repo directory to `TurnBasedEngine`
