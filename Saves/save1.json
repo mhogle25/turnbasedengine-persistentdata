@@ -3,7 +3,7 @@
     [
         {
             "name":"Vapor Knight",
-            "id":"vaporknight",
+            "prefabID":"vaporknight",
             "description":"A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
             "experience":0,
             "level":1,
