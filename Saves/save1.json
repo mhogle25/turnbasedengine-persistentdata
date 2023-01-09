@@ -29,11 +29,11 @@
             "items": 
             [
                 {
-                    "name":"medicinalherb",
+                    "id":"medicinalherb",
                     "count":45
                 },
                 {
-                    "name":"vorpalsword",
+                    "id":"vorpalsword",
                     "count":1
                 }
             ],
