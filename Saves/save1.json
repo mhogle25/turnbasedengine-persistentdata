@@ -24,7 +24,58 @@
             "statusEffects":
             [
                 {
-                    
+                    "name":"Burning",
+                    "description":"Burns the target for 3 damage every turn",
+                    "effect":"Fire",
+                    "duration":3,
+                    "onUpkeep": 
+                    {
+                        "message":
+                        [
+                            "The flames continue to sear the flesh.[E]"
+                        ],
+                        "statsActionProperties":
+                        [
+                            {
+                                "criticalDamage":
+                                {
+                                    "value":1
+                                }
+                            },
+                            {
+                                "criticalDamage":
+                                {
+                                    "value":1
+                                }
+                            }
+                        ]
+                    }
+                },                
+                {
+                    "name":"Holy Blessing",
+                    "description":"Heals the target every turn for 1 HP every turn (technically, deals 1 damage then heals 2)",
+                    "effect":"Healing",
+                    "duration":5,
+                    "onUpkeep": 
+                    {
+                        "message":
+                        [
+                            "The light of the gods shines upon [I:0].[E]"
+                        ],
+                        "statsActionProperties":
+                        [
+                            {
+                                "damage":
+                                {
+                                    "value":1
+                                },
+                                "heal":
+                                {
+                                    "value":2
+                                }
+                            },
+                        ]
+                    }
                 }
             ],
             "gridPosition":0,
