@@ -65,7 +65,7 @@
                         "statsActionProperties":
                         [
                             {
-                                "damage":
+                                "criticalDamage":
                                 {
                                     "value":1
                                 },
