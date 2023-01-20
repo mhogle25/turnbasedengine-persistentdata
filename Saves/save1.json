@@ -25,7 +25,7 @@
             [
                 {
                     "name":"Burning",
-                    "description":"Burns the target for 3 damage every turn",
+                    "description":"Burns the target for 2 damage every turn",
                     "effect":"Fire",
                     "duration":3,
                     "onUpkeep": 
