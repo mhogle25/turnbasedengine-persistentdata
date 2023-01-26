@@ -16,11 +16,12 @@
             "toughness":2,
             "will":1,
             "fortune":2,
-            "head":"",
+            "head":"vaporhelm",
             "torso":"",
             "legs":"",
             "hands":"",
             "feet":"",
+            "accessory":"",
             "statusEffects":
             [
                 {
@@ -32,18 +33,18 @@
                     {
                         "message":
                         [
-                            "The flames continue to sear the flesh.[E]"
+                            "The flames continue to sear [I:0]'s flesh.[E]"
                         ],
                         "statsActionProperties":
                         [
                             {
-                                "criticalDamage":
+                                "directDamage":
                                 {
                                     "value":1
                                 }
                             },
                             {
-                                "criticalDamage":
+                                "directDamage":
                                 {
                                     "value":1
                                 }
@@ -65,7 +66,7 @@
                         "statsActionProperties":
                         [
                             {
-                                "criticalDamage":
+                                "directDamage":
                                 {
                                     "value":1
                                 },
