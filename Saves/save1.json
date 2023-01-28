@@ -8,9 +8,7 @@
             "experience":0,
             "level":1,
             "health":10,
-            "maxHealth":10,
             "stamina":5,
-            "maxStamina":5,
             "swiftness":1,
             "strength":2,
             "toughness":2,
@@ -26,7 +24,7 @@
             [
                 {
                     "name":"Burning",
-                    "description":"Burns the target for 2 damage every turn",
+                    "description":"hexed",
                     "effect":"Fire",
                     "duration":3,
                     "onUpkeep": 
@@ -54,7 +52,7 @@
                 },                
                 {
                     "name":"Holy Blessing",
-                    "description":"Heals the target every turn for 1 HP every turn (technically, deals 1 damage then heals 2)",
+                    "description":"blessed",
                     "effect":"Healing",
                     "duration":5,
                     "onUpkeep": 
@@ -66,10 +64,6 @@
                         "statsActionProperties":
                         [
                             {
-                                "directDamage":
-                                {
-                                    "value":1
-                                },
                                 "heal":
                                 {
                                     "value":2
@@ -85,6 +79,10 @@
                 {
                     "id":"medicinalherb",
                     "count":45
+                },
+                {
+                    "id":"panacea",
+                    "count":2
                 },
                 {
                     "id":"vorpalsword",
