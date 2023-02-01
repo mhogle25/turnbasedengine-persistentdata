@@ -67,7 +67,8 @@
                                 "heal":
                                 {
                                     "value":2
-                                }
+                                },
+                                "resetStamina":true
                             }
                         ]
                     }
