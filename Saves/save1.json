@@ -24,13 +24,11 @@
             [
                 {
                     "id":"se_burning_01",
-                    "remainingDuration":3,
-                    "count":1
+                    "remainingDuration":3
                 },
                 {
                     "id":"se_blessing_01",
-                    "remainingDuration":5,
-                    "count":1
+                    "remainingDuration":5
                 }
             ],
             "gridPosition":0,
