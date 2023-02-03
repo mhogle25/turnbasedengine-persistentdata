@@ -1,4 +1,5 @@
 {
+    "id":"save1",
     "players":
     [
         {
@@ -23,12 +24,12 @@
             "statusEffects":
             [
                 {
-                    "id":"se_burning_01",
-                    "remainingDuration":3
+                    "id":"se_blessing_01",
+                    "remainingDuration":1
                 },
                 {
-                    "id":"se_blessing_01",
-                    "remainingDuration":5
+                    "id":"se_burning_01",
+                    "remainingDuration":1
                 }
             ],
             "gridPosition":0,
