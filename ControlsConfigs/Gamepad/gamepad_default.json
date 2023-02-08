@@ -1,0 +1,10 @@
+{
+  "id": "gamepad_default",
+  "joystickThreshold": 0.3,
+  "confirm": "JoystickButton0",
+  "back": "JoystickButton1",
+  "menu": "JoystickButton3",
+  "attack": "JoystickButton2",
+  "pause": "JoystickButton7",
+  "select": "JoystickButton6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "keyboard_default",
+  "up": "W",
+  "left": "A",
+  "down": "S",
+  "right": "D",
+  "confirm": "P",
+  "back": "O",
+  "menu": "I",
+  "attack": "U",
+  "pause": "Escape",
+  "select": "Tab"
+}
