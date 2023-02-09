@@ -1,66 +1,56 @@
 {
-    "id":"save1",
-    "players":
-    [
+  "id": "save1",
+  "players": [
+    {
+      "prefabID": "vaporknight",
+      "health": 10,
+      "stamina": 5,
+      "constitution": 10,
+      "endurance": 5,
+      "swiftness": 1,
+      "strength": 2,
+      "toughness": 2,
+      "will": 1,
+      "fortune": 2,
+      "head": "eq_vaporhelm",
+      "torso": "",
+      "legs": "",
+      "hands": "",
+      "feet": "",
+      "accessory": "",
+      "gridPosition": 0,
+      "job": {
+        "id": "jb_paladin",
+        "experience": 0
+      },
+      "inactiveJobs": [],
+      "statusEffects": [
         {
-            "name":"Vapor Knight",
-            "prefabID":"vaporknight",
-            "description":"A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
-            "health":10,
-            "stamina":5,
-            "constitution":10,
-            "endurance":5,
-            "swiftness":1,
-            "strength":2,
-            "toughness":2,
-            "will":1,
-            "fortune":2,
-            "head":"eq_vaporhelm",
-            "torso":"",
-            "legs":"",
-            "hands":"",
-            "feet":"",
-            "accessory":"",
-            "gridPosition":0,
-            "job":
-            {
-                "id":"jb_paladin",
-                "experience":0
-            },
-            "inactiveJobs":
-            [
-
-            ],
-            "statusEffects":
-            [
-                {
-                    "id":"se_blessing_01",
-                    "remainingDuration":1
-                },
-                {
-                    "id":"se_burning_01",
-                    "remainingDuration":1
-                }
-            ],
-            "items": 
-            [
-                {
-                    "id":"it_medicinalherb",
-                    "count":45
-                },
-                {
-                    "id":"it_panacea",
-                    "count":2
-                },
-                {
-                    "id":"it_vorpalsword",
-                    "count":1
-                }
-            ],
-            "equipments": 
-            [
-                
-            ]
+          "id": "se_blessing_01",
+          "remainingDuration": 1
+        },
+        {
+          "id": "se_burning_01",
+          "remainingDuration": 1
         }
-    ]
+      ],
+      "items": [
+        {
+          "id": "it_medicinalherb",
+          "count": 45
+        },
+        {
+          "id": "it_panacea",
+          "count": 2
+        },
+        {
+          "id": "it_vorpalsword",
+          "count": 1
+        }
+      ],
+      "equipments": [],
+      "name": "Vapor Knight",
+      "description": "A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom."
+    }
+  ]
 }
