@@ -1,6 +1,6 @@
 {
   "id": "save1",
-  "players": [
+  "activePlayers": [
     {
       "prefabID": "vaporknight",
       "health": 10,
@@ -24,16 +24,7 @@
         "experience": 0
       },
       "inactiveJobs": [],
-      "statusEffects": [
-        {
-          "id": "se_blessing_01",
-          "remainingDuration": 1
-        },
-        {
-          "id": "se_burning_01",
-          "remainingDuration": 1
-        }
-      ],
+      "statusEffects": [],
       "items": [
         {
           "id": "it_medicinalherb",
