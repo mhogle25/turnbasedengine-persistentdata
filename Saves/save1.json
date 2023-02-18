@@ -19,6 +19,10 @@
       "feet": "",
       "accessory": "",
       "gridPosition": 0,
+      "randTest": {
+        "expression":"- | 1 100 + 5 7",
+        "value":0
+      },
       "job": {
         "id": "jb_paladin",
         "experience": 0
