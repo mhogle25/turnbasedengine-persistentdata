@@ -1,9 +1,10 @@
 {
   "id": "save1",
-  "activePlayers": [
+  "activePlayers": 
+  [
     {
       "prefabID": "vaporknight",
-      "health": 10,
+      "health": 11,
       "stamina": 5,
       "constitution": 10,
       "endurance": 5,
@@ -19,20 +20,18 @@
       "feet": "",
       "accessory": "",
       "gridPosition": 0,
-      "randTest": {
-        "expression":"- | 1 100 + 5 7",
-        "value":0
-      },
-      "job": {
+      "job": 
+      {
         "id": "jb_paladin",
-        "experience": 0
+        "experience": 20
       },
       "inactiveJobs": [],
       "statusEffects": [],
-      "items": [
+      "items": 
+      [
         {
           "id": "it_medicinalherb",
-          "count": 45
+          "count": 42
         },
         {
           "id": "it_panacea",
@@ -44,8 +43,16 @@
         }
       ],
       "equipments": [],
+      "itemsLoot": [],
+      "equipmentsLoot": [],
+      "currencyLoot": 1,
       "name": "Vapor Knight",
-      "description": "A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom."
+      "description": "A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
+      "auras": [
+        "Generic"
+      ]
     }
-  ]
+  ],
+  "inactivePlayers": [],
+  "currency": 20
 }
