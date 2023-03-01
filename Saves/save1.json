@@ -1,7 +1,6 @@
 {
   "id": "save1",
-  "activePlayers": 
-  [
+  "activePlayers": [
     {
       "prefabID": "vaporknight",
       "health": 11,
@@ -13,6 +12,7 @@
       "toughness": 2,
       "will": 1,
       "fortune": 2,
+      "critImmune": false,
       "head": "eq_vaporhelm",
       "torso": "",
       "legs": "",
@@ -20,22 +20,20 @@
       "feet": "",
       "accessory": "",
       "gridPosition": 0,
-      "job": 
-      {
+      "job": {
         "id": "jb_paladin",
         "experience": 20
       },
       "inactiveJobs": [],
       "statusEffects": [],
-      "items": 
-      [
+      "items": [
         {
           "id": "it_medicinalherb",
           "count": 42
         },
         {
           "id": "it_panacea",
-          "count": 2
+          "count": 1
         },
         {
           "id": "it_vorpalsword",
@@ -43,6 +41,17 @@
         }
       ],
       "equipments": [],
+      "combatAI": {
+        "actionRanking": {
+          "rankings": []
+        },
+        "auraRanking": {
+          "rankings": []
+        },
+        "alignmentRanking": {
+          "rankings": []
+        }
+      },
       "itemsLoot": [],
       "equipmentsLoot": [],
       "currencyLoot": 1,
