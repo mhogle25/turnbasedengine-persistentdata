@@ -1,5 +1,5 @@
 {
-  "id": "gamepad_default",
+  "id": "default",
   "joystickThreshold": 0.3,
   "confirm": "JoystickButton0",
   "back": "JoystickButton1",
