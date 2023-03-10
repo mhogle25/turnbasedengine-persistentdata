@@ -3,7 +3,7 @@
   "activePlayers": [
     {
       "prefabID": "vaporknight",
-      "health": 11,
+      "health": 16,
       "stamina": 5,
       "constitution": 10,
       "endurance": 5,
@@ -22,14 +22,14 @@
       "gridPosition": 0,
       "job": {
         "id": "jb_paladin",
-        "experience": 180
+        "experience": 160
       },
       "inactiveJobs": [],
       "statusEffects": [],
       "items": [
         {
           "id": "it_medicinalherb",
-          "count": 9
+          "count": 5
         },
         {
           "id": "it_vorpalsword",
@@ -68,8 +68,8 @@
   "bag": [
     {
       "id": "it_firecracker",
-      "count": 3
+      "count": 18
     }
   ],
-  "currency": 180
+  "currency": 365
 }
