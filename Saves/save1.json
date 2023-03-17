@@ -3,7 +3,7 @@
   "activePlayers": [
     {
       "prefabID": "vaporknight",
-      "health": 6,
+      "health": 10,
       "stamina": 5,
       "constitution": 10,
       "endurance": 5,
@@ -22,7 +22,7 @@
       "gridPosition": 0,
       "job": {
         "id": "jb_paladin",
-        "experience": 215
+        "experience": 160
       },
       "inactiveJobs": [],
       "statusEffects": [
@@ -34,27 +34,33 @@
       "items": [
         {
           "id": "it_medicinalherb",
-          "count": 5
+          "count": 3,
+          "data": null
         },
         {
           "id": "it_vorpalsword",
-          "count": 1
+          "count": 1,
+          "data": null
         },
         {
           "id": "it_firecracker",
-          "count": 64
+          "count": 64,
+          "data": null
         },
         {
           "id": "it_magicmissile",
-          "count": 1
+          "count": 1,
+          "data": null
         },
         {
           "id": "it_fireball",
-          "count": 1
+          "count": 1,
+          "data": null
         },
         {
           "id": "it_panacea",
-          "count": 3
+          "count": 2,
+          "data": null
         }
       ],
       "equipments": [],
@@ -66,6 +72,7 @@
       "itemsLoot": [],
       "equipmentsLoot": [],
       "currencyLoot": 1,
+      "etherLoot": 0,
       "name": "Vapor Knight",
       "description": "A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
       "auras": [
@@ -77,8 +84,10 @@
   "bag": [
     {
       "id": "it_firecracker",
-      "count": 21
+      "count": 27,
+      "data": null
     }
   ],
-  "currency": 420
+  "currency": 520,
+  "ether": 12
 }
