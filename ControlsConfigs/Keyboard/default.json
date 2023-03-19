@@ -7,7 +7,7 @@
   "confirm": "P",
   "back": "O",
   "menu": "I",
-  "attack": "U",
+  "special": "U",
   "pause": "Escape",
   "select": "Tab"
 }

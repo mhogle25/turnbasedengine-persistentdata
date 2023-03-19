@@ -3,7 +3,7 @@
   "activePlayers": [
     {
       "prefabID": "vaporknight",
-      "health": 10,
+      "health": 8,
       "stamina": 5,
       "constitution": 10,
       "endurance": 5,
@@ -22,12 +22,12 @@
       "gridPosition": 0,
       "job": {
         "id": "jb_paladin",
-        "experience": 160
+        "experience": 180
       },
       "inactiveJobs": [],
       "statusEffects": [
         {
-          "remainingDuration": 3,
+          "remainingDuration": 1,
           "id": "se_burning_01"
         }
       ],
@@ -35,32 +35,32 @@
         {
           "id": "it_medicinalherb",
           "count": 3,
-          "data": null
+          "custom": null
         },
         {
           "id": "it_vorpalsword",
           "count": 1,
-          "data": null
+          "custom": null
         },
         {
           "id": "it_firecracker",
           "count": 64,
-          "data": null
+          "custom": null
         },
         {
           "id": "it_magicmissile",
           "count": 1,
-          "data": null
+          "custom": null
         },
         {
           "id": "it_fireball",
           "count": 1,
-          "data": null
+          "custom": null
         },
         {
           "id": "it_panacea",
           "count": 2,
-          "data": null
+          "custom": null
         }
       ],
       "equipments": [],
@@ -84,10 +84,10 @@
   "bag": [
     {
       "id": "it_firecracker",
-      "count": 27,
-      "data": null
+      "count": 29,
+      "custom": null
     }
   ],
-  "currency": 520,
-  "ether": 12
+  "currency": 540,
+  "ether": 16
 }

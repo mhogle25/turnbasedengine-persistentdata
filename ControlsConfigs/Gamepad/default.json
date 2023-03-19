@@ -4,7 +4,7 @@
   "confirm": "JoystickButton0",
   "back": "JoystickButton1",
   "menu": "JoystickButton3",
-  "attack": "JoystickButton2",
+  "special": "JoystickButton2",
   "pause": "JoystickButton7",
   "select": "JoystickButton6"
 }
