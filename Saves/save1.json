@@ -1,88 +1,96 @@
 {
   "id": "save1",
-  "activePlayers": [
-    {
-      "prefabID": "vaporknight",
-      "health": 11,
-      "stamina": 5,
-      "constitution": 10,
-      "endurance": 5,
-      "swiftness": 1,
-      "strength": 2,
-      "toughness": 2,
-      "will": 1,
-      "fortune": 2,
-      "critImmune": false,
-      "head": "eq_vaporhelm",
-      "torso": "",
-      "legs": "",
-      "hands": "",
-      "feet": "",
-      "accessory": "",
-      "gridPosition": 0,
-      "job": {
-        "id": "jb_paladin",
-        "experience": 300
-      },
-      "inactiveJobs": [],
-      "statusEffects": [],
-      "items": [
-        {
-          "id": "it_medicinalherb",
-          "count": 495,
-          "custom": null
+  "party": {
+    "activeCharacters": [
+      {
+        "prefabID": "vaporknight",
+        "health": 19,
+        "stamina": 5,
+        "constitution": 10,
+        "endurance": 5,
+        "swiftness": 1,
+        "strength": 2,
+        "toughness": 2,
+        "will": 1,
+        "fortune": 2,
+        "critImmune": false,
+        "head": "eq_vaporhelm",
+        "torso": "",
+        "legs": "",
+        "hands": "",
+        "feet": "",
+        "accessory": "",
+        "gridPosition": 0,
+        "job": {
+          "id": "jb_paladin",
+          "experience": 0,
+          "level": 5
         },
-        {
-          "id": "it_vorpalsword",
-          "count": 1,
-          "custom": null
+        "inactiveJobs": [],
+        "statusEffects": [
+          {
+            "id": "se_burning_01",
+            "remainingDuration": 1
+          }
+        ],
+        "items": [
+          {
+            "id": "it_medicinalherb",
+            "count": 486,
+            "custom": null
+          },
+          {
+            "id": "it_vorpalsword",
+            "count": 1,
+            "custom": null
+          },
+          {
+            "id": "it_firecracker",
+            "count": 64,
+            "custom": null
+          },
+          {
+            "id": "it_magicmissile",
+            "count": 1,
+            "custom": null
+          },
+          {
+            "id": "it_fireball",
+            "count": 1,
+            "custom": null
+          },
+          {
+            "id": "it_panacea",
+            "count": 9,
+            "custom": null
+          }
+        ],
+        "equipments": [],
+        "combatAI": {
+          "actionRanking": {},
+          "auraRanking": {},
+          "alignmentRanking": {}
         },
-        {
-          "id": "it_firecracker",
-          "count": 64,
-          "custom": null
-        },
-        {
-          "id": "it_magicmissile",
-          "count": 1,
-          "custom": null
-        },
-        {
-          "id": "it_fireball",
-          "count": 1,
-          "custom": null
-        },
-        {
-          "id": "it_panacea",
-          "count": 20,
-          "custom": null
-        }
-      ],
-      "equipments": [],
-      "combatAI": {
-        "actionRanking": {},
-        "auraRanking": {},
-        "alignmentRanking": {}
-      },
-      "itemsLoot": [],
-      "equipmentsLoot": [],
-      "currencyLoot": 1,
-      "etherLoot": 0,
-      "name": "Vapor Knight",
-      "description": "A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
-      "auras": [
-        "Generic"
-      ]
-    }
-  ],
-  "inactivePlayers": [],
-  "bag": [
-    {
-      "id": "it_firecracker",
-      "count": 38,
-      "custom": null
-    }
-  ],
-  "currency": 660,
-  "ether": 40
+        "itemsLoot": [],
+        "equipmentsLoot": [],
+        "currencyLoot": 1,
+        "etherLoot": 0,
+        "name": "Vapor Knight",
+        "description": "A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
+        "auras": [
+          "Generic"
+        ]
+      }
+    ],
+    "inactiveCharacters": [],
+    "bag": [
+      {
+        "id": "it_firecracker",
+        "count": 99,
+        "custom": null
+      }
+    ],
+    "currency": 1340,
+    "ether": 176
+  }
 }
