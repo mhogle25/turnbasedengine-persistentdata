@@ -2,13 +2,12 @@
   "party": {
     "activeCharacters": [
       {
-        "id": "ch_vaporknight",
         "prefabID": "vaporknight",
-        "health": 9,
+        "health": 13,
         "stamina": 5,
         "job": {
           "id": "jb_paladin",
-          "experience": 8,
+          "experience": 0,
           "level": 4
         },
         "inactiveJobs": [],
@@ -33,6 +32,10 @@
             "count": 485
           },
           {
+            "id": "it_vorpalsword",
+            "count": 1
+          },
+          {
             "id": "it_firecracker",
             "count": 64
           },
@@ -46,11 +49,7 @@
           },
           {
             "id": "it_panacea",
-            "count": 3
-          },
-          {
-            "id": "it_vorpalsword",
-            "count": 1
+            "count": 4
           }
         ],
         "equipments": [],
@@ -75,11 +74,11 @@
     "items": [
       {
         "id": "it_firecracker",
-        "count": 21
+        "count": 18
       }
     ],
     "equipments": [],
-    "currency": 1760,
-    "ether": 260
+    "currency": 1720,
+    "ether": 252
   }
 }
