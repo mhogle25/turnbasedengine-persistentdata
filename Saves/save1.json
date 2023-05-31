@@ -4,11 +4,11 @@
       {
         "id": "ch_vaporknight",
         "prefabID": "vaporknight",
-        "health": 9,
+        "health": 3,
         "stamina": 5,
         "job": {
           "id": "jb_paladin",
-          "experience": 8,
+          "experience": 12,
           "level": 4
         },
         "inactiveJobs": [],
@@ -75,11 +75,21 @@
     "items": [
       {
         "id": "it_firecracker",
-        "count": 21
+        "count": 23
       }
     ],
     "equipments": [],
-    "currency": 1760,
-    "ether": 260
+    "gems": [
+      {
+        "id": "gm_burning_01",
+        "count": 10
+      },
+      {
+        "id": "gm_damage_01_a",
+        "count": 10
+      }
+    ],
+    "currency": 1780,
+    "ether": 264
   }
 }
