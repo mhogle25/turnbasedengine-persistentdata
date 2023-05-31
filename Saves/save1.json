@@ -4,7 +4,7 @@
       {
         "id": "ch_vaporknight",
         "prefabID": "vaporknight",
-        "health": 3,
+        "health": 15,
         "stamina": 5,
         "job": {
           "id": "jb_paladin",
@@ -26,7 +26,12 @@
         "hands": "",
         "feet": "",
         "accessory": "",
-        "statusEffects": [],
+        "statusEffects": [
+          {
+            "id": "se_burning_01",
+            "remainingDuration": 1
+          }
+        ],
         "items": [
           {
             "id": "it_medicinalherb",
@@ -45,10 +50,6 @@
             "count": 1
           },
           {
-            "id": "it_panacea",
-            "count": 3
-          },
-          {
             "id": "it_vorpalsword",
             "count": 1
           }
@@ -60,8 +61,9 @@
           "alignmentRanking": {}
         },
         "gridPosition": 0,
-        "itemsLoot": [],
-        "equipmentsLoot": [],
+        "itemLoot": [],
+        "equipmentLoot": [],
+        "gemLoot": [],
         "currencyLoot": 1,
         "etherLoot": 0,
         "name": "Vapor Knight",
@@ -82,7 +84,7 @@
     "gems": [
       {
         "id": "gm_burning_01",
-        "count": 10
+        "count": 8
       },
       {
         "id": "gm_damage_01_a",
