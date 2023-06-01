@@ -4,12 +4,12 @@
       {
         "id": "ch_vaporknight",
         "prefabID": "vaporknight",
-        "health": 15,
+        "health": 6,
         "stamina": 5,
         "job": {
           "id": "jb_paladin",
-          "experience": 12,
-          "level": 4
+          "experience": 0,
+          "level": 6
         },
         "inactiveJobs": [],
         "constitution": 10,
@@ -29,24 +29,24 @@
         "statusEffects": [
           {
             "id": "se_burning_01",
-            "remainingDuration": 1
+            "remainingDuration": 2
           }
         ],
         "items": [
           {
             "id": "it_medicinalherb",
-            "count": 485
+            "count": 484
           },
           {
             "id": "it_firecracker",
             "count": 64
           },
           {
-            "id": "it_magicmissile",
+            "id": "it_fireball",
             "count": 1
           },
           {
-            "id": "it_fireball",
+            "id": "it_magicmissile",
             "count": 1
           },
           {
@@ -84,14 +84,18 @@
     "gems": [
       {
         "id": "gm_burning_01",
-        "count": 8
+        "count": 4
       },
       {
         "id": "gm_damage_01_a",
-        "count": 10
+        "count": 9
+      },
+      {
+        "id": "gm_damage_01_sadflhz",
+        "count": 6
       }
     ],
-    "currency": 1780,
-    "ether": 264
+    "currency": 1900,
+    "ether": 288
   }
 }
