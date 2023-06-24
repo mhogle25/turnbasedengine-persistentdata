@@ -4,11 +4,11 @@
       {
         "id": "ch_vaporknight",
         "prefabID": "vaporknight",
-        "health": 19,
+        "health": 30,
         "stamina": 5,
         "job": {
           "id": "jb_paladin",
-          "experience": 0,
+          "experience": 32,
           "level": 7
         },
         "inactiveJobs": [],
@@ -29,7 +29,7 @@
         "statusEffects": [
           {
             "id": "se_burning_01",
-            "remainingDuration": 3
+            "remainingDuration": 1
           }
         ],
         "items": [
@@ -39,7 +39,7 @@
           },
           {
             "id": "it_firecracker",
-            "count": 64
+            "count": 62
           },
           {
             "id": "it_fireball",
@@ -99,7 +99,8 @@
         "count": 5
       }
     ],
-    "currency": 2060,
-    "ether": 320
+    "runes": [],
+    "currency": 2220,
+    "ether": 352
   }
 }
