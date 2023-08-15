@@ -1,0 +1,32 @@
+{
+  "spriteID": "sword_01",
+  "consumable": false,
+  "onUse": {
+    "targetedGemSlots": [
+      {
+        "target": "Opponent",
+        "description": "attack",
+        "gemID": "gm_burning_01",
+        "repeat": {
+          "expression": "",
+          "value": 1
+        },
+        "hasAura": null,
+        "successRateModifier": {
+          "expression": "",
+          "value": 0
+        },
+        "critChanceModifier": {
+          "expression": "$ 10 50",
+          "value": 0
+        }
+      }
+    ],
+    "message": [
+      "[I:0] performed a calculated strike.[E]"
+    ]
+  },
+  "name": "Brisingr",
+  "description": "An ancient sword of great power. Damages a single opponent.",
+  "auras": []
+}

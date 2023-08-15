@@ -1,0 +1,13 @@
+{
+  "id": "default",
+  "up": "W",
+  "left": "A",
+  "down": "S",
+  "right": "D",
+  "confirm": "P",
+  "back": "O",
+  "menu": "I",
+  "special": "U",
+  "pause": "Escape",
+  "select": "Tab"
+}
