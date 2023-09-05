@@ -1,15 +1,16 @@
 {
   "party": {
-    "activeCharacters": [
-      {
+    "leader": {
+      "position": 0,
+      "character": {
         "id": "ch_vaporknight",
         "prefabID": "vaporknight",
-        "health": 8,
-        "stamina": 5,
+        "health": 20,
+        "stamina": 0,
         "job": {
           "id": "jb_paladin",
-          "experience": 0,
-          "level": 2
+          "experience": 5,
+          "level": 4
         },
         "inactiveJobs": [],
         "constitution": 10,
@@ -21,49 +22,52 @@
         "fortune": 0,
         "critImmune": false,
         "equipped": {
+          "accessory": "",
           "head": "eq_vaporhelm",
-          "torso": "",
+          "torso": "eq_vaporplate",
           "legs": "",
-          "hands": "",
-          "feet": "",
-          "accessory": ""
+          "hands": "eq_vaporgauntlet",
+          "feet": ""
         },
-        "statusEffects": [
-          {
-            "id": "se_burning_01",
-            "remainingDuration": 3
-          }
-        ],
+        "statusEffects": [],
         "items": [
           {
-            "id": "it_medicinalherb",
-            "count": 483
+            "count": 481,
+            "id": "it_medicinalherb"
           },
           {
-            "id": "it_firecracker",
-            "count": 62
+            "count": 62,
+            "id": "it_firecracker"
           },
           {
-            "id": "it_fireball",
-            "count": 1
+            "count": 1,
+            "id": "it_fireball"
           },
           {
-            "id": "it_panacea",
-            "count": 18
+            "count": 15,
+            "id": "it_panacea"
           },
           {
-            "id": "it_magicmissile",
-            "count": 1
+            "count": 1,
+            "id": "it_magicmissile"
           },
           {
-            "id": "_848cc1deadf840be9796ccdb405f8065",
-            "count": 1
+            "count": 1,
+            "id": "_848cc1deadf840be9796ccdb405f8065"
           }
         ],
         "equipment": [
           {
-            "id": "eq_vaporhelm",
-            "count": 4
+            "count": 4,
+            "id": "eq_vaporhelm"
+          },
+          {
+            "count": 4,
+            "id": "eq_vaporplate"
+          },
+          {
+            "count": 3,
+            "id": "eq_vaporgauntlet"
           }
         ],
         "combatAI": {
@@ -71,43 +75,38 @@
           "auraRanking": {},
           "alignmentRanking": {}
         },
-        "gridPosition": 0,
-        "itemLoot": [],
-        "equipmentLoot": [],
-        "gemLoot": [],
-        "currencyLoot": 1,
-        "etherLoot": 0,
         "name": "Vapor Knight",
         "description": "A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
         "auras": [
           "Generic"
         ]
       }
-    ],
-    "inactiveCharacters": [],
+    },
+    "activePlayers": [],
+    "inactivePlayers": [],
     "items": [
       {
-        "id": "it_firecracker",
-        "count": 23
+        "count": 23,
+        "id": "it_firecracker"
       }
     ],
     "equipment": [],
     "gems": [
       {
-        "id": "gm_burning_01",
-        "count": 2
+        "count": 2,
+        "id": "gm_burning_01"
       },
       {
-        "id": "gm_damage_01_a",
-        "count": 9
+        "count": 9,
+        "id": "gm_damage_01_a"
       },
       {
-        "id": "gm_damage_01_sadflhz",
-        "count": 5
+        "count": 5,
+        "id": "gm_damage_01_sadflhz"
       }
     ],
     "runes": [],
-    "currency": 2365,
-    "ether": 381
+    "currency": 2470,
+    "ether": 402
   }
 }
