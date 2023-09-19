@@ -1,16 +1,44 @@
 {
   "party": {
+    "items": [
+      {
+        "count": 30,
+        "id": "it_firecracker"
+      },
+      {
+        "count": 8,
+        "id": "it_medicinalherb"
+      }
+    ],
+    "equipment": [],
+    "gems": [
+      {
+        "count": 2,
+        "id": "gm_burning_01"
+      },
+      {
+        "count": 9,
+        "id": "gm_damage_01_a"
+      },
+      {
+        "count": 5,
+        "id": "gm_damage_01_sadflhz"
+      }
+    ],
+    "runes": [],
+    "currency": 2651,
+    "ether": 437,
     "leader": {
       "position": 0,
       "character": {
         "id": "ch_vaporknight",
         "prefabID": "vaporknight",
-        "health": 20,
-        "stamina": 0,
+        "health": 26,
+        "stamina": 4,
         "job": {
           "id": "jb_paladin",
-          "experience": 5,
-          "level": 4
+          "experience": 0,
+          "level": 6
         },
         "inactiveJobs": [],
         "constitution": 10,
@@ -29,7 +57,12 @@
           "hands": "eq_vaporgauntlet",
           "feet": ""
         },
-        "statusEffects": [],
+        "statusEffects": [
+          {
+            "id": "se_burning_01",
+            "remainingDuration": 1
+          }
+        ],
         "items": [
           {
             "count": 481,
@@ -44,7 +77,7 @@
             "id": "it_fireball"
           },
           {
-            "count": 15,
+            "count": 12,
             "id": "it_panacea"
           },
           {
@@ -75,6 +108,20 @@
           "auraRanking": {},
           "alignmentRanking": {}
         },
+        "loot": {
+          "itemLoot": [],
+          "equipmentLoot": [],
+          "gemLoot": [],
+          "runeLoot": [],
+          "currencyLoot": {
+            "expression": "",
+            "value": 1
+          },
+          "etherLoot": {
+            "expression": "",
+            "value": 1
+          }
+        },
         "name": "Vapor Knight",
         "description": "A valiant paladin of justice, he seeks to win the power of the Dark Castle for his kingdom.",
         "auras": [
@@ -83,30 +130,6 @@
       }
     },
     "activePlayers": [],
-    "inactivePlayers": [],
-    "items": [
-      {
-        "count": 23,
-        "id": "it_firecracker"
-      }
-    ],
-    "equipment": [],
-    "gems": [
-      {
-        "count": 2,
-        "id": "gm_burning_01"
-      },
-      {
-        "count": 9,
-        "id": "gm_damage_01_a"
-      },
-      {
-        "count": 5,
-        "id": "gm_damage_01_sadflhz"
-      }
-    ],
-    "runes": [],
-    "currency": 2470,
-    "ether": 402
+    "inactivePlayers": []
   }
 }
